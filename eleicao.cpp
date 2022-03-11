@@ -8,7 +8,7 @@ main(){
 	printf("***ELEICOES***");
 	printf("\n**************\n");
 
-	
+system("pause");	
 	while(voto!=4){
 			printf("\n 1 - para votar no candidato 1\n 2 - para votar no candidato 2\n 3 - para votar no candidato 3\n 4 - para encerrar \n");
 			scanf("%d",&voto);
@@ -30,7 +30,7 @@ main(){
 			default:
 				printf("voto invalido");
 		}
-	system("pause");
+	//system("pause");
 	system("cls");
 	}
 	printf("\n CANDIDATO 1 = %d \n CANDIDATO 2 = %d \n CANDIDATO 3 = %d ",candidato1,candidato2,candidato3);
